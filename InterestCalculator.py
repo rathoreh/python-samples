@@ -1,7 +1,6 @@
 from time import sleep
 
-print(">>>>> Interest Calculator <<<<<")
-print("\n")
+print(">>>>> Interest Calculator <<<<<\n")
 
 principal = float(input('Enter Principal? '))
 roi = float(input("Enter Rate of Interest: "))
