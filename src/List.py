@@ -25,17 +25,21 @@ print(cubes)
 print()
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print('Letters: ')
 print(letters)
 print()
 
 letters[2:5] = ['C', 'D', 'E']
+print('Letters[2:5]:[''C'', ''D'', ''E'']: ')
 print(letters)
 print()
 
 letters[2:5] = []
+print('Letters[2:5]:[]: ')
 print(letters)
 print()
 
 letters[:] = []
+print('Letters[:]:[]: ')
 print(letters)
 print()
